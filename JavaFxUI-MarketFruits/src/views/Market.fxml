@@ -233,9 +233,9 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
                      <children>
-                        <ScrollPane prefHeight="525.0" prefWidth="785.0" styleClass="transparent" stylesheets="@../values/style.css">
+                        <ScrollPane fx:id="scroll" prefHeight="525.0" prefWidth="785.0" styleClass="transparent" stylesheets="@../values/style.css">
                            <content>
-                              <GridPane>
+                              <GridPane fx:id="grid">
                                 <columnConstraints>
                                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                 </columnConstraints>
