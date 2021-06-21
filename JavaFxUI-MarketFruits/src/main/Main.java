@@ -8,6 +8,8 @@ import javafx.stage.Stage;
 
 
 public class Main extends Application {
+	
+	public static final String CURRENCY="$";
 	@Override
 	public void start(Stage primaryStage) {
 		try {
