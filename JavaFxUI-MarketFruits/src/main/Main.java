@@ -13,6 +13,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+			System.out.println("start ok");
 			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("../views/Market.fxml"));
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
