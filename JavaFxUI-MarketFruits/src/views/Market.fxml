@@ -67,7 +67,7 @@
                      <children>
                         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                            <children>
-                              <Label fx:id="fruitNameLabel" prefHeight="54.0" prefWidth="145.0" text="Peach" textFill="WHITE">
+                              <Label fx:id="fruitNameLabel" prefHeight="44.0" prefWidth="224.0" text="Peach" textFill="WHITE">
                                  <font>
                                     <Font name="Cambria" size="36.0" />
                                  </font>
@@ -79,7 +79,7 @@
                               </Label>
                            </children>
                            <VBox.margin>
-                              <Insets top="30.0" />
+                              <Insets left="20.0" top="30.0" />
                            </VBox.margin>
                         </HBox>
                         <ImageView fx:id="fruitImg" fitHeight="170.0" fitWidth="285.0" pickOnBounds="true" preserveRatio="true">
@@ -130,13 +130,17 @@
                               <Insets bottom="20.0" top="20.0" />
                            </VBox.margin>
                         </HBox>
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" styleClass="add-button" stylesheets="@../values/style.css" text="ADD TO CART" textFill="#828282">
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="270.0" stylesheets="@../values/style.css" text="ADD TO CART" textFill="#828282">
                            <VBox.margin>
                               <Insets bottom="20.0" top="30.0" />
                            </VBox.margin>
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
+                           <styleClass>
+                              <String fx:value="add-button" />
+                              <String fx:value="shadow" />
+                           </styleClass>
                         </Button>
                      </children>
                   </VBox>
